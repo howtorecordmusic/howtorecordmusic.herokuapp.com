@@ -26,7 +26,8 @@ config = {
 
   // Production (Heroku)
   production: {
-    url: process.env.HEROKU_URL,
+    // url: process.env.HEROKU_URL,
+    url: 'http://www.howtorecordmusic.com',
     mail: {
       transport: 'SMTP',
       options: {
