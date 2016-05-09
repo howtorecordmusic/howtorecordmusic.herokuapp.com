@@ -1,0 +1,19 @@
+{
+	"name": "Penman",
+	"version": "0.2.0",
+	"description": "Minimal Responsive Ghost Theme",
+	"author": {
+		"name": "Infinitum Themes",
+		"email": "hello@infinitum.me",
+		"url": "http://infinitum.me"
+	},
+	"devDependencies": {
+		"grunt": "~1.0.1",
+		"grunt-contrib-compass": "~1.1.1",
+		"grunt-contrib-concat": "~1.0.1",
+		"grunt-contrib-uglify": "~1.0.1",
+		"grunt-autoprefixer": "~3.0.4",
+		"grunt-contrib-watch": "~1.0.0",
+		"grunt-contrib-clean": "~1.0.0"
+	}
+}
