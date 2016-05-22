@@ -61,6 +61,9 @@
 
         </div>
 
+        {{! Mailchimp Subscription Box }}
+        {{> "subscribe" }}
+
         {{! Pagination }}
         {{#if pagination.prev}}
           {{pagination}}
@@ -73,6 +76,9 @@
       </main>
 
     </div>
+
+    {{! Footer }}
+    {{>footer}}
 
     {{! Ghost Footer }}
     {{ghost_foot}}
