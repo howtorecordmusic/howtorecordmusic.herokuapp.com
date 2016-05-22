@@ -31,7 +31,7 @@
 {{#post}}
 
 <article itemscope itemtype="http://schema.org/BlogPosting" class="post{{^if image}}{{^has tag="_photo, _quote, _link, _chat, _audio, _video"}} post--text{{/has}}{{/if}}{{#if image}} post--cover{{^has tag="_quote, _link, _chat, _audio, _video"}} post--photo{{/has}}{{/if}}{{#has tag="_quote"}} post--quote{{/has}}{{#has tag="_link"}} post--link{{/has}}{{#has tag="_chat"}} post--chat{{/has}}{{#has tag="_audio"}} post--cover post--audio{{/has}}{{#has tag="_video"}} post--cover post--video{{/has}} post--permalink" id="{{id}}" data-ani="hide" data-js="post">
-  
+
   <div class="post-inner">
 
     <header class="post-section post-header">
@@ -65,7 +65,7 @@
     </footer>
 
     {{! Disqus Comments }}
-    {{!> "disqus/comments"}}
+    {{> "disqus/comments"}}
 
   </div>
 
